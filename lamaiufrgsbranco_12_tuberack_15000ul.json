@@ -1,0 +1,190 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1",
+            "C1"
+        ],
+        [
+            "A2",
+            "B2",
+            "C2"
+        ],
+        [
+            "A3",
+            "B3",
+            "C3"
+        ],
+        [
+            "A4",
+            "B4",
+            "C4"
+        ]
+    ],
+    "brand": {
+        "brand": "Lamai-UFRGS Branco",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL",
+        "displayCategory": "tubeRack",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127,
+        "yDimension": 85,
+        "zDimension": 96
+    },
+    "wells": {
+        "A1": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 20,
+            "y": 70,
+            "z": 42
+        },
+        "B1": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 20,
+            "y": 43.8,
+            "z": 42
+        },
+        "C1": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 20,
+            "y": 17.6,
+            "z": 42
+        },
+        "A2": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 48.5,
+            "y": 70,
+            "z": 42
+        },
+        "B2": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 48.5,
+            "y": 43.8,
+            "z": 42
+        },
+        "C2": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 48.5,
+            "y": 17.6,
+            "z": 42
+        },
+        "A3": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 77,
+            "y": 70,
+            "z": 42
+        },
+        "B3": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 77,
+            "y": 43.8,
+            "z": 42
+        },
+        "C3": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 77,
+            "y": 17.6,
+            "z": 42
+        },
+        "A4": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 105.5,
+            "y": 70,
+            "z": 42
+        },
+        "B4": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 105.5,
+            "y": 43.8,
+            "z": 42
+        },
+        "C4": {
+            "depth": 54,
+            "totalLiquidVolume": 15000,
+            "shape": "circular",
+            "diameter": 13,
+            "x": 105.5,
+            "y": 17.6,
+            "z": 42
+        }
+    },
+    "groups": [
+        {
+            "brand": {
+                "brand": "Tubo15",
+                "brandId": []
+            },
+            "metadata": {
+                "wellBottomShape": "flat",
+                "displayCategory": "tubeRack"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "C1",
+                "A2",
+                "B2",
+                "C2",
+                "A3",
+                "B3",
+                "C3",
+                "A4",
+                "B4",
+                "C4"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "lamaiufrgsbranco_12_tuberack_15000ul"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}

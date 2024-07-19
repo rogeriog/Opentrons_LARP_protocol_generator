@@ -1,11 +1,13 @@
-import plotly.graph_objects as go
 import copy
 from opentrons import protocol_api
 import sys , pdb
 
-
 ### YOU SHOULD CHANGE TO FALSE BEFORE UPLOADING TO OPENTRONS!!
 SIMULATE_MODE = True
+
+if SIMULATE_MODE:
+     import plotly.graph_objects as go
+     import os
 
 # metadata
 metadata = {
@@ -333,7 +335,7 @@ def run(protocol: protocol_api.ProtocolContext):
                     return liquid
           return None
 
-
+     starting_deck_total_vols = {}
      for solution_name, solution_data in initial_solutions.items():
           for data in solution_data:
                container = int(str(data["container"]._wells_by_name['A1']).split()[-1])
@@ -345,6 +347,11 @@ def run(protocol: protocol_api.ProtocolContext):
                     if position not in starting_deck[container]:
                          starting_deck[container][position] = {"solutions": {}}
                     starting_deck[container][position]["solutions"][solution_name] = volume
+                    ## summing up the total volume of each solution
+                    if solution_name not in starting_deck_total_vols:
+                         starting_deck_total_vols[solution_name] = 0
+                    starting_deck_total_vols[solution_name] += volume
+
      # update liquid in each entry
      for solution_name, solution_data in initial_solutions.items():
           for data in solution_data:
@@ -375,7 +382,9 @@ def run(protocol: protocol_api.ProtocolContext):
                for key in keys:
                     if key in list_of_wells:
                          del intermediate_deck[container][key]
+          
           # pdb.set_trace()
+          intermediate_total_vols = {}
           for solution in intermediate_solutions:
                container = int(str(solution["container"]._wells_by_name['A1']).split()[-1])
                positions = solution["positions"]
@@ -386,20 +395,45 @@ def run(protocol: protocol_api.ProtocolContext):
                     if position not in intermediate_deck[container]:
                          intermediate_deck[container][position] = {"solutions": {}}
                     intermediate_deck[container][position]["solutions"] = solutions
+                    ## summing up the total volume of each solution
+                    for solution in solutions:
+                         if solution not in intermediate_total_vols:
+                              intermediate_total_vols[solution] = 0
+                         intermediate_total_vols[solution] += solutions[solution]
+
+          
           # we need to set the antisolvent solutions in the intermediate deck too
           for solution in final_solutions:
                container = int(str(solution["container"]._wells_by_name['A1']).split()[-1])
                positions = solution["positions"]
-               antisolvent_vol = solution["solutions"]["antisolvent"]
-               for position in positions:
+               # pdb.set_trace()
+               for solution_type in solution["solutions"]:
+                    if solution_type == 'intermediate_solution':
+                         continue
                     if container not in intermediate_deck:
                          intermediate_deck[container] = {}
-                    if position not in intermediate_deck[container]:
-                         intermediate_deck[container][position] = {"solutions": {}}
-                    intermediate_deck[container][position]["solutions"]["antisolvent"] = antisolvent_vol
-          
+                    for position in positions:
+                         if position not in intermediate_deck[container]:
+                              intermediate_deck[container][position] = {"solutions": {}}
+                         intermediate_deck[container][position]["solutions"][solution_type] = solution["solutions"][solution_type]
+                         ## summing up the total volume of each solution
+                         if solution_type not in intermediate_total_vols:
+                              intermediate_total_vols[solution_type] = 0
+                         intermediate_total_vols[solution_type] += solution["solutions"][solution_type]
           
           # pdb.set_trace()
+          # check keys in intermediate deck
+          for key in intermediate_deck:
+               # check if the subkeys contain solutions
+               for subkey in intermediate_deck[key]:
+                    if isinstance(intermediate_deck[key][subkey], dict):
+                         if 'solutions' in intermediate_deck[key][subkey]:
+                              solutions = intermediate_deck[key][subkey]['solutions']
+                              total_vol = 0
+                              for sol in solutions:
+                                   total_vol += solutions[sol]
+                              print(f"Total volume in container {key} position {subkey}: {total_vol}")
+
           # make a copy of the starting deck
           final_deck = copy.deepcopy(starting_deck)
           # clear all solutions from the intermediate deck
@@ -412,6 +446,7 @@ def run(protocol: protocol_api.ProtocolContext):
                          del final_deck[container][key]
           # now we set the final solutions in the final deck
           # final_solutions_copy = copy.deepcopy(final_solutions)
+          final_total_vols = {"intermediate_solution": 0}
           for solution in final_solutions:
                container = int(str(solution["container"]._wells_by_name['A1']).split()[-1])
                positions = solution["positions"]
@@ -422,6 +457,13 @@ def run(protocol: protocol_api.ProtocolContext):
                     if position not in final_deck[container]:
                          final_deck[container][position] = {"solutions": {}}
                     final_deck[container][position]["solutions"] = solutions
+                    ## we sum the total volume of each solution
+                    for solution in solutions:
+                         if solution != 'intermediate_solution':
+                              if solution not in final_total_vols:
+                                   final_total_vols[solution] = 0
+                              final_total_vols[solution] += solutions[solution]                  
+
                     ### now we need to set the actual intermediate solution in the final deck
                     ### notice that it will repeat for the other positions
                     if isinstance(final_deck[container][position]["solutions"]["intermediate_solution"], dict):
@@ -429,6 +471,9 @@ def run(protocol: protocol_api.ProtocolContext):
                          intermediate_sol_container = intermediate_sol_origin["container"]
                          intermediate_sol_well = intermediate_sol_origin["well"]
                          intermediate_sol_vol = intermediate_sol_origin["volume"]
+                         ### sum the total volume of intermediate solution
+                         final_total_vols["intermediate_solution"] += intermediate_sol_vol
+                         ###
                          intermediate_sol_slot = int(str(intermediate_sol_container._wells_by_name[intermediate_sol_well]).split()[-1])
                          intermediate_solution = intermediate_deck[intermediate_sol_slot][intermediate_sol_well] 
                          # sum volumes in intermediate solution
@@ -438,7 +483,8 @@ def run(protocol: protocol_api.ProtocolContext):
                          vol_frac = intermediate_sol_vol / total_vol
                          for sol in intermediate_solution["solutions"]:
                               final_deck[container][position]["solutions"][sol] = intermediate_solution["solutions"][sol] * vol_frac
-                         
+          # pdb.set_trace()
+
 
           def set_deck_from_dict(number, deck, deck_params):
                if not isinstance(deck, dict):
@@ -552,6 +598,27 @@ def run(protocol: protocol_api.ProtocolContext):
                     showarrow=False,
                     font=dict(size=18, color="black")
                )
+
+               # now for each deck I want to have a summary of the 
+               # total quantity of each solution in the deck
+               if n_stage == 0:
+                    total_vols = starting_deck_total_vols
+               elif n_stage == 1:
+                    total_vols = intermediate_total_vols
+               else:
+                    total_vols = final_total_vols
+               
+               # create annotation for total volumes below the deck image
+               for solution, volume in total_vols.items():
+                    fig.add_annotation(
+                         x=x_offset + main_rectangle_width / 2,
+                         y= -2 - 2 * (list(total_vols.keys()).index(solution)),
+                         text=f"{solution_nicknames[solution]}: {volume} uL",
+                         # text=f"{solution}: {volume} uL",
+                         showarrow=False,
+                         font=dict(size=12, color="black")
+                    )
+
                
                for j in range(subdivisions_y):
                     for i in range(subdivisions_x):
@@ -610,16 +677,19 @@ def run(protocol: protocol_api.ProtocolContext):
 
           # Set the layout of the figure
           fig.update_layout(
+          margin=dict(l=20, r=20, t=40, b=40),
           title="Three Stages of the Synthesis of Perovskite Nanocrystals",
           xaxis=dict(range=[0, main_rectangle_width * num_stages + 10], zeroline=False),
-          yaxis=dict(range=[0, main_rectangle_height+5], scaleanchor="x", scaleratio=1, zeroline=False),
+          yaxis=dict(range=[-8, main_rectangle_height-0.5], scaleanchor="x", scaleratio=1, zeroline=False),
           showlegend=False
           )
           # Hide x and y axis
           fig.update_xaxes(visible=False)
           fig.update_yaxes(visible=False)
           # Show the figure
-          fig.write_html("interactive_plot.html")
+          # prefix from script filename
+          prefix = sys.argv[1].split(".")[0]
+          fig.write_html(f"{prefix}_interactive_plot.html")
           fig.show()
           ############### END OF GRAPHICAL DIAGNOSTIC ##################
           ##############################################################
