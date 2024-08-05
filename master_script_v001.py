@@ -100,7 +100,11 @@ def run(protocol: protocol_api.ProtocolContext):
              "volume": 10_000}
         ],
           "ligand_2": [
-            {"container": precursors_15_pos4, "positions": ["B1", "B2", "B3", "B4"], 
+            {"container": precursors_15_pos4, "positions": ["B1", "B2"], 
+             "volume": 10_000}
+        ],
+        "reactant_1": [
+            {"container": precursors_15_pos4, "positions": [ "B3", "B4"], 
              "volume": 10_000}
         ],
           "antisolvent": [
@@ -160,6 +164,7 @@ def run(protocol: protocol_api.ProtocolContext):
         {"container": resulting_solutions_5_pos6, "positions": ["A1", "A2", "A3", "A4", "A5", "A6"],
             "solutions": {
                 "antisolvent": 1_000,
+                "reactant_1": 200,
                 "intermediate_solution": {"container": intermediate_solutions_15_pos5,
                                           "well": "A1",
                                           # "wells": ["A1", "A2"], ## depois implementar checar wells
@@ -168,6 +173,7 @@ def run(protocol: protocol_api.ProtocolContext):
         {"container": resulting_solutions_5_pos6, "positions": ["B1", "B2", "B3", "B4", "B5", "B6"],
             "solutions": {
                 "antisolvent": 2_000,
+                "reactant_1": 200,
                 "intermediate_solution": {"container": intermediate_solutions_15_pos5,
                                           "well": "A2",
                                           # "wells": ["A1", "A2"], ## depois implementar checar wells
@@ -176,6 +182,7 @@ def run(protocol: protocol_api.ProtocolContext):
         {"container": resulting_solutions_5_pos6, "positions": ["C1", "C2", "C3", "C4", "C5", "C6"],
             "solutions": {
                 "antisolvent": 3_000,
+                "reactant_1": 200,
                 "intermediate_solution": {"container": intermediate_solutions_15_pos5,
                                           "well": "A2",
                                           # "wells": ["A1", "A2"], ## depois implementar checar wells
@@ -184,6 +191,8 @@ def run(protocol: protocol_api.ProtocolContext):
         {"container": resulting_solutions_5_pos6, "positions": ["D1", "D2", "D3", "D4", "D5", "D6"],
             "solutions": {
                 "antisolvent": 4_000,
+                "ligand_1": 500,
+                "reactant_1": 200,
                 "intermediate_solution": {"container": intermediate_solutions_15_pos5,
                                           "well": "A2",
                                           # "wells": ["A1", "A2"], ## depois implementar checar wells
@@ -192,6 +201,7 @@ def run(protocol: protocol_api.ProtocolContext):
         {"container": resulting_solutions_5_pos3, "positions": ["A1", "A2", "A3", "A4", "A5", "A6"],
             "solutions": {
                 "antisolvent": 2_500,
+                "reactant_1": 200,
                 "intermediate_solution": {"container": intermediate_solutions_15_pos5,
                                           "well": "A1",
                                           # "wells": ["A1", "A2"], ## depois implementar checar wells
@@ -334,7 +344,7 @@ def run(protocol: protocol_api.ProtocolContext):
                if liquid.name == color:
                     return liquid
           return None
-
+     tip_count = 0 # count the number of tips used
      starting_deck_total_vols = {}
      for solution_name, solution_data in initial_solutions.items():
           for data in solution_data:
@@ -619,6 +629,9 @@ def run(protocol: protocol_api.ProtocolContext):
                          font=dict(size=12, color="black")
                     )
 
+             
+                         
+
                
                for j in range(subdivisions_y):
                     for i in range(subdivisions_x):
@@ -678,7 +691,7 @@ def run(protocol: protocol_api.ProtocolContext):
           # Set the layout of the figure
           fig.update_layout(
           margin=dict(l=20, r=20, t=40, b=40),
-          title="Three Stages of the Synthesis of Perovskite Nanocrystals",
+          title=f"Three Stages of the LARP Synthesis",
           xaxis=dict(range=[0, main_rectangle_width * num_stages + 10], zeroline=False),
           yaxis=dict(range=[-8, main_rectangle_height-0.5], scaleanchor="x", scaleratio=1, zeroline=False),
           showlegend=False
@@ -824,6 +837,11 @@ def run(protocol: protocol_api.ProtocolContext):
                                              IS_WET = True
                                         composed_transfer(volume, source_container[source_position], container[position])
                                         print(f"Transferred {volume} from {source_container[source_position]} to {container[position]}")
+                                        if disposing_type != 'precursor_solution_1':
+                                             mix(container[position])
+                                             right_pipette.drop_tip()
+                                             tip_count += 1
+                                             right_pipette.pick_up_tip()
                                         TRANSFER_DONE = True
                                         break # if transfer was successful, not necessary to check other source positions
                               if TRANSFER_DONE:
@@ -833,6 +851,7 @@ def run(protocol: protocol_api.ProtocolContext):
                               print(f"There is an error in protocol, please check the volumes and positions.")
                               sys.exit(1)
                right_pipette.drop_tip()
+               tip_count += 1
           # now I want to print for each intermediate solution the volume of each liquid
           print('-------------------------HEALTH CHECK-----------------------------')
           for intermediate in intermediate_solutions:
@@ -848,6 +867,7 @@ def run(protocol: protocol_api.ProtocolContext):
           # now i want to fill the resulting solutions with antisolvent
           # I should read the antisolvent_solutions and transfer the antisolvent volume
           # corresponding to each resulting solution
+          pdb.set_trace()
           for antisolvent_solution in backup_final_solutions:
                # pdb.set_trace()
                container = antisolvent_solution["container"]
@@ -867,14 +887,17 @@ def run(protocol: protocol_api.ProtocolContext):
                               intermediate_container = solutions[solution_type]["container"]
                               intermediate_well = solutions[solution_type]["well"]
                               intermediate_volume = solutions[solution_type]["volume"]
-                              composed_transfer(intermediate_volume, container[position], intermediate_container[intermediate_well])
+                              composed_transfer(intermediate_volume, intermediate_container[intermediate_well], container[position])
                               print(f"Transferred {intermediate_volume} of intermediate solution {intermediate_container[intermediate_well]} to {container[position]} ")
+                              mix(container[position])
                               right_pipette.drop_tip()
+                              tip_count += 1
                          else:
                               pass
                               # just ignore
                     if solution_type == "antisolvent":
                          right_pipette.drop_tip()
+                         tip_count += 1
           # now I want to print for each intermediate solution the volume of each liquid
           print('-------------------------HEALTH CHECK-----------------------------')
           for anti_solution in final_solutions:
@@ -885,3 +908,5 @@ def run(protocol: protocol_api.ProtocolContext):
                     print(f"Resulting solution at {container[position]}")
                     for solution_type, volume in solutions.items():
                          print(f"Volume of {solution_type}: {volume}")
+               print('-----------------THESE SHOULD BE THE FINAL VOLUMES----------------')
+          print(f"Protocol finished with {tip_count} tips. \n\n\n\n\n\n\n\n")

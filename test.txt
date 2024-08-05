@@ -1,0 +1,714 @@
+THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'B1', 'volume': 300}
+Volume of precursor_solution_1: 285.7142857142857
+Volume of ligand_1: 14.285714285714285
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'B2', 'volume': 300}
+Volume of precursor_solution_1: 272.7272727272727
+Volume of ligand_1: 27.27272727272727
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'B3', 'volume': 300}
+Volume of precursor_solution_1: 260.8695652173913
+Volume of ligand_1: 39.130434782608695
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'B4', 'volume': 300}
+Volume of precursor_solution_1: 250.0
+Volume of ligand_1: 50.0
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'C1', 'volume': 300}
+Volume of precursor_solution_1: 240.0
+Volume of ligand_1: 60.0
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'C2', 'volume': 300}
+Volume of precursor_solution_1: 230.76923076923077
+Volume of ligand_1: 69.23076923076924
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'C3', 'volume': 300}
+Volume of precursor_solution_1: 222.2222222222222
+Volume of ligand_1: 77.77777777777777
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'C4', 'volume': 300}
+Volume of precursor_solution_1: 214.28571428571428
+Volume of ligand_1: 85.71428571428571
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'A1', 'volume': 300}
+Volume of precursor_solution_1: 206.89655172413794
+Volume of ligand_1: 93.10344827586206
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Resulting solution at C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6
+Volume of antisolvent: 3000
+Volume of reactant_1: 600
+Volume of intermediate_solution: {'container': Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL, 'well': 'A2', 'volume': 300}
+Volume of precursor_solution_1: 200.0
+Volume of ligand_1: 100.0
+-----------------THESE SHOULD BE THE FINAL VOLUMES----------------
+Protocol finished with 32 tips.
+
+
+
+
+
+
+
+
+Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 1002.655 uL/sec
+Blowing out at A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7   
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Cinza 12 Tube Rack with Tubo20 20 mL on slot 7        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 1002.655 uL/sec
+Blowing out at A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4  
+Aspirating 100.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 100.0 uL into B1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 200.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 200.0 uL into B2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 300.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into B3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 400.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 400.0 uL into B4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 500.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 500.0 uL into C1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 600.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 600.0 uL into C2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 700.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 700.0 uL into C3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 800.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 800.0 uL into C4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Aspirating 900.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 900.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 4       
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into B1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H2 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to A6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into B2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into B3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into B4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B3 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into C1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H3 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B4 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into C2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from A4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from B4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B5 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into C3 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from C4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from D4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to B6 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into C4 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 5 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from E4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from F4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to C1 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A1 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from G4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Aspirating 1000.0 uL from A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1 at 274.7 uL/sec
+Moving to A1 of Lamaiufrgs-ReservatorioTemp 1 Reservoir 80000 µL on slot 1        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 1000.0 uL into C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
+Picking up tip from H4 of Opentrons OT-2 96 Tip Rack 1000 µL on slot 11
+Aspirating 300.0 uL from C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6 at 274.7 uL/sec
+Moving to C2 of Lamai-UFRGS Preto24 24 Tube Rack with Tubo5 5 mL on slot 6        
+Delaying for 0 minutes and 3.0 seconds
+Touching tip
+Dispensing 300.0 uL into A2 of Lamai-UFRGS Branco 12 Tube Rack with Tubo15 15 mL on slot 2 at 549.4 uL/sec
+Touching tip
+Dropping tip into Trash Bin on slot 12
