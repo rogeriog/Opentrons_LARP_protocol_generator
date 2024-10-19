@@ -1,0 +1,2 @@
+# Labware examples
+In this folder a few custom labwares used by the authors are presented. These are generated using the Opentrons Labware Creator and are used in the protocols presented in the repository. 
