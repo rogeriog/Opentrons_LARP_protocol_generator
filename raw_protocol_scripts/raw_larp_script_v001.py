@@ -42,7 +42,7 @@ def run(protocol: protocol_api.ProtocolContext):
      ## definir numero de antisolvent solutions por step para trocar a pipeta.
      
      ######################################################
-     ## LABWARE DEFINITIONS
+## LABWARE DEFINITIONS
      ######################################################
 
      ## colors available are: red, green, blue, yellow, magenta, cyan, brown, orange
@@ -68,19 +68,19 @@ def run(protocol: protocol_api.ProtocolContext):
      
      
      ######################################################
-     ## SOLUTION NICKNAMES
+## SOLUTION NICKNAMES
      ######################################################
 
      ######################################################
-     ## INITIAL SOLUTIONS
+## INITIAL SOLUTIONS
      ######################################################
 
      ######################################################
-     ## INTERMEDIATE SOLUTIONS
+## INTERMEDIATE SOLUTIONS
      ######################################################
      
      ######################################################
-     ## FINAL SOLUTIONS
+## FINAL SOLUTIONS
      ######################################################
 
      ### NOTHING TO CHANGE BELOW THIS LINE
