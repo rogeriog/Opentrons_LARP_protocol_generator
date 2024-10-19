@@ -1100,8 +1100,8 @@ def run(protocol: protocol_api.ProtocolContext):
                print(f"No source found for {solution_type} with volume {volume}")
                sys.exit(1)
 
-          DISPOSAL_ORDER = ['precursor_solution_1', 'precursor_solution_2', 'precursor_solution_3', 'precursor_solution_4',
-                            'ligand_1', 'ligand_2', 'ligand_3', 'ligand_4', 'reactant_1', 'reactant_2', 'reactant_3',
+          DISPOSAL_ORDER = ['precursor_solution_1', 'precursor_solution_2', 'precursor_solution_3', 'precursor_solution_4', 'precursor_solution_5', 'precursor_solution_6',
+                            'ligand_1', 'ligand_2', 'ligand_3', 'ligand_4', 'ligand_5', 'reactant_1', 'reactant_2', 'reactant_3', 'reactant_4',
                             'antisolvent', 'antisolvent_2']
           # Perform composed transfers from precursor solutions to intermediate solutions
           ## get all intermediate solution types

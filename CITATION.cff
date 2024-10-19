@@ -10,6 +10,8 @@ type: software
 authors:
   - given-names: Rogério
     family-names: Almeida Gouvêa
+  - given-names: Marcos José
+    family-names: Leite Santos
 repository-code: >-
   https://github.com/rogeriog/opentrons_LARP_graphical_prognostic
 abstract: >-
@@ -20,6 +22,8 @@ abstract: >-
   inconsistencies, additionally a graphical interface is
   provided to verify the different stages of the LARP
   synthesis.
+  Code was developed by the authors with the funding of 
+  the Brazilian funding agency CNPq.
 keywords:
   - opentrons
   - LARP
