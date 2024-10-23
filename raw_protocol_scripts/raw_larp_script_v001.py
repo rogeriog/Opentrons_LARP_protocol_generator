@@ -493,9 +493,6 @@ def run(protocol: protocol_api.ProtocolContext):
                          font=dict(size=12, color="black")
                     )
 
-             
-                         
-
                
                for j in range(subdivisions_y):
                     for i in range(subdivisions_x):
@@ -541,14 +538,14 @@ def run(protocol: protocol_api.ProtocolContext):
                               font=dict(size=16, color="black")
                          )
 
-                         # Add labware to the subdivisions
-                         # Assume set_deck_from_dict is defined elsewhere in the code
-                         if n_stage == 0:
-                              set_deck_from_dict(number, starting_deck, deck_params)
-                         elif n_stage == 1:
-                              set_deck_from_dict(number, intermediate_deck, deck_params)
-                         else:
-                              set_deck_from_dict(number, final_deck, deck_params)
+                         # Add labware to the subdivisions only if the fillcolor is not grey
+                         if fillcolor != "Grey":
+                              if n_stage == 0:
+                                   set_deck_from_dict(number, starting_deck, deck_params)
+                              elif n_stage == 1:
+                                   set_deck_from_dict(number, intermediate_deck, deck_params)
+                              else:
+                                   set_deck_from_dict(number, final_deck, deck_params)
 
                          number += 1
 
