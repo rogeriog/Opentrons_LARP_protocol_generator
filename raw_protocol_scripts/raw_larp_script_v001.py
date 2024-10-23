@@ -337,25 +337,26 @@ def run(protocol: protocol_api.ProtocolContext):
                                    final_total_vols[solution] = 0
                               final_total_vols[solution] += solutions[solution]                  
 
-                    ### now we need to set the actual intermediate solution in the final deck
+                    # check if the intermediate solution is a key in final_deck[container][position]["solutions"]
+                    if 'intermediate_solution' in final_deck[container][position]["solutions"]:
                     ### notice that it will repeat for the other positions
-                    if isinstance(final_deck[container][position]["solutions"]["intermediate_solution"], dict):
-                         intermediate_sol_origin = final_deck[container][position]["solutions"]["intermediate_solution"]
-                         intermediate_sol_container = intermediate_sol_origin["container"]
-                         intermediate_sol_well = intermediate_sol_origin["well"]
-                         intermediate_sol_vol = intermediate_sol_origin["volume"]
-                         ### sum the total volume of intermediate solution
-                         final_total_vols["intermediate_solution"] += intermediate_sol_vol
-                         ###
-                         intermediate_sol_slot = int(str(intermediate_sol_container._wells_by_name[intermediate_sol_well]).split()[-1])
-                         intermediate_solution = intermediate_deck[intermediate_sol_slot][intermediate_sol_well] 
-                         # sum volumes in intermediate solution
-                         total_vol = 0
-                         for sol in intermediate_solution["solutions"]:
-                              total_vol += intermediate_solution["solutions"][sol]
-                         vol_frac = intermediate_sol_vol / total_vol
-                         for sol in intermediate_solution["solutions"]:
-                              final_deck[container][position]["solutions"][sol] = intermediate_solution["solutions"][sol] * vol_frac
+                         if isinstance(final_deck[container][position]["solutions"]["intermediate_solution"], dict):
+                              intermediate_sol_origin = final_deck[container][position]["solutions"]["intermediate_solution"]
+                              intermediate_sol_container = intermediate_sol_origin["container"]
+                              intermediate_sol_well = intermediate_sol_origin["well"]
+                              intermediate_sol_vol = intermediate_sol_origin["volume"]
+                              ### sum the total volume of intermediate solution
+                              final_total_vols["intermediate_solution"] += intermediate_sol_vol
+                              ###
+                              intermediate_sol_slot = int(str(intermediate_sol_container._wells_by_name[intermediate_sol_well]).split()[-1])
+                              intermediate_solution = intermediate_deck[intermediate_sol_slot][intermediate_sol_well] 
+                              # sum volumes in intermediate solution
+                              total_vol = 0
+                              for sol in intermediate_solution["solutions"]:
+                                   total_vol += intermediate_solution["solutions"][sol]
+                              vol_frac = intermediate_sol_vol / total_vol
+                              for sol in intermediate_solution["solutions"]:
+                                   final_deck[container][position]["solutions"][sol] = intermediate_solution["solutions"][sol] * vol_frac
           #  
 
 

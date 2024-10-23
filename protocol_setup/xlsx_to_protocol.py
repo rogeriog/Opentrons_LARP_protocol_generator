@@ -285,7 +285,7 @@ def list_to_multiline_string(lst, indent=0):
     result = []
     indent_str = ' ' * indent
     for entry in lst:
-        result.append(f'{indent_str}{{"container": "{entry["container"]}", "positions": {entry["positions"]}, "solutions": {{')
+        result.append(f'{indent_str}{{"container": {entry["container"]}, "positions": {entry["positions"]}, "solutions": {{')
         for sol_name, vol in entry["solutions"].items():
             result.append(f'{indent_str}    "{sol_name}": {vol},')
         result.append(f'{indent_str}}}}},')
@@ -419,12 +419,12 @@ def final_list_to_multiline_string(lst, indent=0):
     result = []
     indent_str = ' ' * indent
     for entry in lst:
-        result.append(f'{indent_str}{{"container": "{entry["container"]}", "positions": {entry["positions"]}, "solutions": {{')
+        result.append(f'{indent_str}{{"container": {entry["container"]}, "positions": {entry["positions"]}, "solutions": {{')
         for sol_name, vol in entry["solutions"].items():
             if isinstance(vol, list):  # Handle intermediate_solution references
                 result.append(f'{indent_str}    "{sol_name}": ')
                 for ref in vol:
-                    result.append(f'{indent_str}        {{"container": "{ref["container"]}", "well": "{ref["well"]}", "volume": {ref["volume"]}}}')
+                    result.append(f'{indent_str}        {{"container": {ref["container"]}, "well": "{ref["well"]}", "volume": {ref["volume"]}}}')
                 # result.append(f'{indent_str}    ,')
             else:
                 result.append(f'{indent_str}    "{sol_name}": {vol},')
