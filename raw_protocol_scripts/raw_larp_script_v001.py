@@ -593,7 +593,7 @@ def run(protocol: protocol_api.ProtocolContext):
                     print(f"Loaded {liquid.name} corresponding to {solution_type} into {container} positions {positions} with volume {volume}")
           # PARAMETERS AND BASE FUNCTIONS FOR THE PROTOCOL
           ## default speed is 400
-          right_pipette.default_speed = 300  ## moves way slower, good to check protocol
+          right_pipette.default_speed = 400  ## 300 is good to check protocol
           def update_liquid(src, dest, volume):
                if hasattr(dest,"liquid") :
                     # if all src.liquid item is in dest liquid
