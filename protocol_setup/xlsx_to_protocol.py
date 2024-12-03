@@ -3,8 +3,19 @@ import numpy as np
 import re
 from collections import OrderedDict
 import os
+import unicodedata
+
+# Function to remove accents from text and convert to lowercase
+def remove_accents(text):
+    if isinstance(text, str):
+        text = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII').lower()
+    return text
+
 # Read the Excel file
 df = pd.read_excel('protocol_setup.xlsx')
+
+# Apply the remove_accents function to all text data in the DataFrame
+# df = df.applymap(remove_accents)
 
 # display everything
 pd.set_option('display.max_columns', None)
@@ -58,7 +69,20 @@ for idx in keyword_rows:
         extracted_data_block['Wells'] = well_data
         extracted_data.append(extracted_data_block)
 
+# I want to apply the remove accents in all strings in the extracted data
+# to avoid problems with special characters, but only in the strings in the
+# innermost fields of the dictionaries
+def apply_remove_accents(data):
+    if isinstance(data, dict):
+        return {k: apply_remove_accents(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [apply_remove_accents(v) for v in data]
+    elif isinstance(data, str):
+        return remove_accents(data)
+    else:
+        return data
 
+extracted_data = apply_remove_accents(extracted_data)
 
 labware_strs = []
 unique_solutions = {
@@ -408,7 +432,7 @@ for ref in intermediate_solution_references:
                 final_entry["solutions"]["intermediate_solution"] = []
             final_entry["solutions"]["intermediate_solution"].append({
                 "container": intermediate_container,
-                "well": intermediate_well,
+                "well": intermediate_well.upper(),
                 "volume": volume
             })
 
