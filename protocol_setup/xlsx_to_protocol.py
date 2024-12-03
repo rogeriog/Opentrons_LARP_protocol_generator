@@ -245,7 +245,7 @@ for data_block in extracted_data:
     # Iterate through wells to parse solutions and volumes
     for well, well_data in wells.items():
         solutions_str = well_data['Solution']
-        volumes_str = well_data['Quantity']
+        volumes_str = str(well_data['Quantity'])
 
         # Skip if no valid solutions or quantities
         if pd.isna(solutions_str) or pd.isna(volumes_str):
@@ -322,7 +322,7 @@ for data_block in extracted_data:
     # skip_block = False
     for well, well_data in wells.items():
         solutions_str = well_data['Solution']
-        volumes_str = well_data['Quantity']
+        volumes_str = str(well_data['Quantity'])
         # Skip if no valid solutions or quantities
         if pd.isna(solutions_str) or pd.isna(volumes_str):
             continue
@@ -353,7 +353,7 @@ for data_block in extracted_data:
         else: # this is the case of a final block with the antisolvent prescription only
             # Iterate through wells to parse final solutions
             solutions_str = well_data['Solution']
-            volumes_str = well_data['Quantity']
+            volumes_str = str(well_data['Quantity'])
             # Skip if no valid solutions or quantities
             if pd.isna(solutions_str) or pd.isna(volumes_str):
                 continue
@@ -488,3 +488,4 @@ content = content.replace('## FINAL SOLUTIONS', final_solutions_str)
 # Write the modified content to the unique file
 with open(unique_filename_protocol, 'w') as file:
     file.write(content)
+print(f"Generated protocol file: {unique_filename_protocol}")
