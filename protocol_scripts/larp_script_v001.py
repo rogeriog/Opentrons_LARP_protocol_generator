@@ -841,12 +841,21 @@ def run(protocol: protocol_api.ProtocolContext):
                                    # get keys
                                    solutions = labware[get_index]['solutions']
                                    hover_text = ''
+                                   ## need to delete keys with decompositions to not bug
+                                   ## final solutions in the rest of the script 
+                                   afterIntermediate=False
+                                   keys_to_delete = [] 
                                    for key in solutions:
                                         # round to decimals and add to hover text
                                         if key != 'intermediate_solution':
                                              hover_text += solution_nicknames[key] + ': ' + str(round(solutions[key], 2)) + '<br>'
+                                             if afterIntermediate: # mark the key for deletion
+                                                  keys_to_delete.append(key)
                                         else: # make it red
+                                             afterIntermediate=True
                                              hover_text += '~~' + solution_nicknames[key] + ': ' + str(round(solutions[key]['volume'], 2)) + '~~<br>'
+                                   for key in keys_to_delete:
+                                        del solutions[key]
                                    for solution in solutions:
                                         if solution == 'intermediate_solution':
                                              continue
